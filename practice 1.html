@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Form</title>
+     <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+
+<body> 
+
+     <div class="hola">
+        
+        <h1 style="color:gainsboro;">Fill the Form before joining the Game</h1> <br>
+
+         <form>
+              
+          <div>
+               <label for="nam"> Enter Name: </label>
+               <input type="text" name="nam" id="nam" placeholder="Full Name"> <br>
+          </div>
+
+          <div>  
+               <label for="Mail"> Enter Your E-mail: </label>
+               <input type="email" name="Mail" id="Mail" placeholder="Your Email" >  <br>
+          </div>
+
+          <div>     
+               <label for="pass">Enter Your Password: </label>
+               <input type="password" name="pass" id="pass" placeholder="Your Password"> <br>
+          </div>
+          
+          <div>
+               <label for="Age">Enter Your Age: </label>
+               <input type="number" min="18" max="30" name="Age" id="Age"> <br>
+          </div>
+          
+          <div>
+               <label for="colour">Enter Your Favourite Colour :</label>
+               <input type="color"> <br>
+          </div>
+          
+          <div>
+               <label for="Gender">Your Gender :</label>
+               <input type="radio" name="gender" id="gender"> Male
+               <input type="radio" name="gender" id="gender"> Female
+               <input type="radio" name="gender" id="gender"> BTS  <br>
+          </div>
+          
+          <div>
+               <label for="skill">Your Language Skill: </label>
+               <input type="checkbox" name="Bengali" id="Bengali"> Bengali 
+               <input type="checkbox" name="English" id="English"> English
+               <input type="checkbox" name="Japanese" id="Japanese"> Japanese
+               <input type="checkbox" name="German" id="German"> German
+               <input type="checkbox" name="Russian" id="Russian"> Russian
+               <input type="checkbox" name="Spanish" id="Spanish"> Spanish  <br><br>
+          </div>
+          
+          <div>
+               <label for="birth"> Enter Date of Birth</label>
+               <input type="date" name="birth" id="birth"> <br>
+          </div>
+          
+          <div>
+               <label for="country"> Choose Your Country :</label>
+               <select name="country" id="country"> 
+               
+                         <option value="BD">Bangladesh</option>
+                         <option value="JPN">Japan</option>
+                         <option value="KOR">Korea</option>
+                         <option value="ARG">Argentina</option>
+                         <option value="POR">Portugal</option>
+                         <option value="SWE">Sweeden</option>
+                         <option value="ITA">Italy</option>  <br><br>
+
+               </select>
+          </div>
+
+          <br><br>
+           
+          <div>
+               <label for="comment">Tell something about us :</label>
+               <textarea name="comment" id="comment" cols="30" rows="15"></textarea> <br>
+          </div>
+          
+          
+          <div>
+               <label for="file" >Attach Your File here :</label>
+               <input type="file" name="file" id="file">   
+          </div> 
+          <br> <br> <hr>    
+
+               <input type="submit" value="Login" class="login">      
+               <input type="reset" id="reset" class="login">
+
+
+
+
+
+
+
+
+
+         </form> 
+
+     </div>
+
+
+
+
+     
+</body>
+</html>
